@@ -50,7 +50,6 @@ public class MainActivity extends AppCompatActivity {
         lista = new ArrayList<>();
         ProgressBar progressBar = new ProgressBar(getApplicationContext());
         progressBar.setMax(NUM_ITERACIONES);
-        progressBar.show
         for (int i = 0; i < 10000; i++) {
             BoolBase boolBase = new BoolBase();
             boolBase.setValue(true);
